@@ -534,7 +534,7 @@ img{
 /* Intro styles start */
 
 .intro{
-    min-height: 100vh;
+    height: auto;
     background: url(../img/intro-bg-min.jpg) no-repeat center;
     background-size: cover;
     padding-top: 263px;
@@ -564,6 +564,7 @@ img{
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    margin-bottom: 166px;
 }
 
 .search-form__field{
